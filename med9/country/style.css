@@ -1,0 +1,45 @@
+h1 {
+	background-color: lightblue;
+	font-size:  px;
+	margin: 30px;
+	border: 10px solid black;
+
+}
+
+div {
+	height: 200px;
+
+}
+
+.red {
+	background-color: red;
+}
+
+.white {
+	background-color: white;
+
+}
+
+.green {
+	background-color: green;
+}
+
+h2 {
+	background-color: lightpink;
+	margin: 20px;
+}
+
+img {
+	
+	height: 200px;
+	width: 250px;
+	margin: 40px;
+	border: 10px dotted purple;
+	border: radius;
+	float: right;
+
+}
+
+body {
+	background-color: lightyellow;
+}
