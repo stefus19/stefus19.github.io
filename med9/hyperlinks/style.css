@@ -1,0 +1,28 @@
+:root {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: lightpink;
+
+}
+
+h1 {
+	background-color: lightsteelblue;
+	padding: 30px;
+	font-size: 30px;
+	text-align: center;
+}
+
+p {
+	max-width: 600px;
+	margin: auto;
+}
+
+img {
+	margin: 30px;
+	border: double purple;
+    border-radius: 50px;
+    width: 600px;
+
+}

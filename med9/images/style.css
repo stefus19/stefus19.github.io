@@ -1,0 +1,18 @@
+img {
+	height: 200px;
+	margin: 30px;
+	border: 10px dotted blue;#
+	border-radius: 20px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+body {
+	background-color: lightpink;
+}
