@@ -1,0 +1,37 @@
+h1 {
+	color: black;
+	background-color: lightpink;
+	margin: 20px;
+	text-decoration: underline;
+	font-size: 30px;
+}
+
+p {
+	text-align: 30px;
+	margin: 20px;
+	padding: 25px;
+}
+
+
+
+h2 {
+	color: black;
+	background-color: lightblue;
+	margin: 20px;
+	text-decoration: underline;
+	font-size: 30px;
+}
+
+img {
+	float: right;
+	font-size: 30px;
+	border: 10 px dotted blue;
+	height: 200px;
+	width: 250px;
+	margin: 20px;
+}
+
+body {
+	background-color: lightyellow;
+	
+}
