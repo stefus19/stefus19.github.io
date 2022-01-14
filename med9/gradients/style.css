@@ -1,0 +1,29 @@
+h1 {
+	color: white;
+	padding: 30px;
+background: rgb(14,109,221);
+background: linear-gradient(270deg, rgba(14,109,221,1) 13%, rgba(241,0,134,1) 66%);
+}
+
+h2 {
+	color: black;
+background: rgb(231,14,111);
+background: linear-gradient(5deg, rgba(231,14,111,1) 11%, rgba(168,42,143,1) 25%, rgba(102,71,176,1) 45%, rgba(14,109,221,1) 67%, rgba(14,109,221,1) 87%);
+
+}
+
+h3 {
+	color: black;
+	background: rgb(14,109,221);
+background: radial-gradient(circle, rgba(14,109,221,1) 32%, rgba(121,58,180,1) 51%, rgba(241,0,134,1) 63%);
+
+}
+
+
+
+body {
+
+	min-height: 100vh;
+	background: rgb(14,109,221);
+background: linear-gradient(230deg, rgba(14,109,221,1) 9%, rgba(14,109,221,1) 21%, rgba(14,109,221,1) 32%, rgba(121,58,180,1) 51%, rgba(211,15,146,1) 60%, rgba(241,0,134,1) 63%, rgba(241,0,134,1) 79%, rgba(241,0,134,1) 87%);
+}
