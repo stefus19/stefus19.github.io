@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=Dancing+Script&family=Indie+Flower&family=Merriweather:ital,wght@0,900;1,700&family=Open+Sans+Condensed:wght@300&family=Roboto:wght@100&family=Sacramento&family=Signika+Negative:wght@300;400&family=Supermercado+One&display=swap');h1 {
+	background-color: lightblue;
+	color: blue;
+	padding: 20px;
+	font-size: 50px;
+	margin: 30px;
+	border: 3px solid blue;
+	text-align: center;
+	letter-spacing: 0.5em;
+	font-family: "Bree Serif";
+}
+
+h2 {
+	background-color: lightpink;
+	color: purple;
+	padding: 10px;
+	font-size: 30px;
+	margin: 20px;
+	border: 3px solid purple;
+	text-align: center;
+	letter-spacing: 0.5em;
+	font-family: "Supermercado One";
+}
+
+h3 {
+
+	background-color: lightgreen;
+	color: green;
+	border: 3px solid green;
+	text-align: center;
+	letter-spacing: 0.5em;
+	font-family: "Bebas Neue";
+}
+
+p {
+	color: brown;
+	background-color: lightyellow;
+	padding: 40px;
+	margin: 30px;
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 0.5em;
+	font-family: "Signika Negative";
+
+}
+
+
+ol {
+
+	font-size: 20px;
+	color: black;
+	padding: 20px;
+	margin: 20px;
+	text-align: left ;
+
+}
+
+ul {
+	font-size: 20px;
+	color: black;
+	padding: 20px;
+	margin: 20px;
+	text-align: left; 
+
+}
+
+img {
+	width: 500px;
+	float: right;
+	margin: 30px;
+	border: 5px dotted brown;
+
+}
+
+body {
+	background-color: beige ;
+}
