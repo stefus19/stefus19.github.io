@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=Dancing+Script&family=Didact+Gothic&family=Indie+Flower&family=Lobster+Two&family=Merriweather:ital,wght@0,900;1,700&family=Open+Sans+Condensed:wght@300&family=Roboto:wght@100&family=Sacramento&family=Signika+Negative:wght@300;400&family=Supermercado+One&display=swap');
+
+
+
+.A {
+
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	background: rgb(131,58,180);
+background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(252,176,69,1) 100%);
+
+}
+
+
+img{
+	height: 250px;
+	border: 5px solid black;
+	margin: 50px;
+}
+
+
+
+.B {
+background: rgb(161,82,176);
+background: radial-gradient(circle, rgba(161,82,176,1) 38%, rgba(252,70,107,0.5914740896358543) 100%);
+	height: 400px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+
+.C {
+background: rgb(131,58,180);
+background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(252,176,69,1) 100%);
+	height: 400px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+
+}
+
+.D {
+background: rgb(161,82,176);
+background: radial-gradient(circle, rgba(161,82,176,1) 38%, rgba(252,70,107,0.5914740896358543) 100%);
+	height: 400px;
+	display: flex;
+	justify-content:flex-end ;
+	align-items: flex-start;
+
+}
+
+
+.E {
+background: rgb(131,58,180);
+background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(252,176,69,1) 100%);
+	height: 400px;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+
+
+.F {
+background: rgb(161,82,176);
+background: radial-gradient(circle, rgba(161,82,176,1) 38%, rgba(252,70,107,0.5914740896358543) 100%);
+	height: 400px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: stretch;
+
+}
+
+
+.G {
+background: rgb(131,58,180);
+background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(252,176,69,1) 100%);
+	height: 400px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+
+
+h1{
+	font-family: 'Bebas Neue', cursive;
+	text-align: center;
+	font-size: 50px;
+
+}
+
+
