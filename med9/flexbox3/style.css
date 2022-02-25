@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Neucha&display=swap');
+
+
+header {
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("landscape.jpg");
+	background-size: cover;
+	background-position: center;
+	font-family: "Neucha";
+
+	
+
+
+}
+
+header h1 {
+	background-color: rgba(255,255,255,0.6);
+	border-radius: 20px;
+	padding: 30px;
+	color: green;
+}
+
+body {
+	margin: 0;
+}
+
+main {
+	padding: 100px;
+	background: linear-gradient(258deg, rgba(14,219,210,1) 0%, rgba(21,105,8,1) 100%);
+
+}
+
+
+main p {
+	column-count: 2;
+	color: white;
+	padding: 30px;
+
+}
+
+.hobby {
+	height: 300px;
+	padding: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgb(126, 201, 107);
+
+	font-size: 15px;
+
+
+}
+
+footer {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 400px;
+	background-image: url("landscape2.jpg");
+	background-size: cover;
+	background-position: center;
+		font-family: "Josefin Sans";
+}
+
+footer p {
+	padding: 30px;
+	color: white;
+	background-color: rgba(193, 151, 209, 0.6);
+	border-radius: 20px;
+}
