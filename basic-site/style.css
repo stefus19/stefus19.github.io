@@ -1,0 +1,168 @@
+/*
+*
+* Title: Infoseite über Art
+* Author: Stefi Fushaj
+* Date: 18.3.2022
+*
+*/
+
+
+/********************General Styling **********************/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+
+body {
+	margin: 0px;
+}
+
+/* Navigation */
+
+
+nav {
+	background: rgb(233,189,241);
+	background: radial-gradient(circle, rgba(233,189,241,1) 38%, rgba(255,95,128,1) 100%);
+	padding: 30px;
+	display: flex;
+	justify-content: space-between; /* To make space between logo and links */
+	align-items: center;
+	
+}
+
+nav img {
+	border-radius: 50%;
+	height: 80px; /* To reduce the size  of the logo image */
+	
+}
+
+nav ul {
+	list-style-type: none; /* To remove the bullet points of our list */
+	display: flex;
+	justify-content: flex-end; 
+	align-items: center;
+	
+}
+
+nav ul li a {
+	margin: 15px;
+	padding: 20px;
+	background-color: lightcoral;
+	text-decoration: none;
+	color: black;
+	border-radius: 20px;
+	font-family: "Gloria Hallelujah";
+}
+
+
+nav ul li a:hover {
+	background-color: lightpink;
+	color: black;
+}
+
+/* Header */
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+	background-position: center;
+	background-size: cover;
+
+}
+
+
+header h1 {
+	font-size: 25px;
+	background-color: rgba(255,255,255,0.7);
+	padding: 20pxs;
+	color: darkred;
+	font-family: "Hi Melody";
+}
+
+/* Section */
+section  {
+	padding: 60px;
+	background-color: lightcoral;
+
+
+}
+
+
+section h2 {
+	font-size: 25px;
+	color: brown;
+	background-color: white;
+	display: inline-block;
+
+}
+
+#famous {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+
+}
+
+
+
+section .left {
+	width: 60%;
+	background-color: lightpink;
+
+}
+
+
+section .right {
+	width: 40%;
+	background-color: pink;
+	border: 8px dotted brown; 
+}
+
+
+/* Footer */
+footer {
+	height: 400px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background: rgb(235,140,159);
+	background: linear-gradient(90deg, rgba(235,140,159,1) 21%, rgba(231,56,98,1) 93%);
+}
+
+footer p {
+	background-color: rgba(255,255,255,0.7);
+	padding: 10px;
+	
+}
+
+/**********************Page Styling**************************/
+
+/* Home */
+#home header {
+	background-image: url("header-background.jpg");
+	color: black;
+}
+
+#home main {
+	background-color: lightpink;
+	padding: 30px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+
+#home main img {
+	width: 250px;
+	border: 4px double brown;
+}
+/* Contact */
+ 
+#contact header {
+	background-image: url("header-background-contact.jpg");
+}
+
+
