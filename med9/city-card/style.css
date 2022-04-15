@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: white;
+	font-family: "Lato";
+
+}
+
+
+article {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+article .image {
+	height: 200px;
+	width: 300px;
+	background-image: url("berat.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 30px;
+}
+
+article .text {
+	height: 200px;
+	width: 300px;
+	background-color: white;
+	padding: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-direction: column;
+background: rgb(141,212,227);
+background: linear-gradient(63deg, rgba(141,212,227,1) 55%, rgba(3,84,186,1) 100%);
+}
+
+
+article .text h1 {
+	background-color: darkblue;
+	color: white;
+	padding: 12px;
+	position: absolute;
+	left:300px ;
+	top: 60px;
+	z-index: 100;
+}
+article .text h2 {
+	background-color: white;
+	padding: 14px;
+	text-transform: uppercase;
+	color: darkblue;
+	font-size: 40px;
+	position: absolute;
+	top: 90px;
+	left: 550px;
+
+
+
+}
