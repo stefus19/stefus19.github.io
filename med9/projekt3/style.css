@@ -1,0 +1,245 @@
+/*
+*
+* Title: Website about my business (Kompletter Webshop)
+* Author: Stefi Fushaj
+* Date: 08.05.2022
+*
+*/
+
+
+/********************General Styling **********************/
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Concert+One&family=Corben&family=Damion&family=Dancing+Script&family=Fondamento:ital@1&family=Hi+Melody&family=IM+Fell+English+SC&family=Indie+Flower&family=Josefin+Sans&family=Koulen&family=Pompiere&family=Raleway:wght@100&family=Sacramento&family=Sofia&family=Ubuntu+Condensed&family=Ubuntu:wght@300;400&display=swap');
+body {
+margin: 0px;/*No space in the body*/
+min-height: 100vh;
+background: rgb(101,239,174);
+background: radial-gradient(circle, rgba(101,239,174,1) 0%, rgba(173,236,216,1) 100%);
+}
+
+/* Navigation */
+	nav {
+background: rgb(101,239,174);
+background: radial-gradient(circle, rgba(101,239,174,1) 0%, rgba(17,75,57,1) 100%);
+padding: 30px;
+display: flex;
+justify-content: space-between; /* To make space between logo and links */
+align-items: center;
+width: 100%;
+position: fixed; /*When you scroll, the links and logo don't move*/
+top: 0%;
+left: 0%;
+
+
+
+}
+
+
+
+nav img {
+border-radius: 50%;
+height: 150px; /* The size of the logo image */
+width: 150px;
+
+
+}
+
+
+
+nav ul li{
+
+display: inline-block;
+
+
+}
+
+
+
+nav ul li a {
+margin: 15px; 
+padding: 20px;
+text-decoration: none; /* To remove the bullet points of our list */
+color: black;
+border-radius: 20px;
+font-family: "Concert One";
+
+
+}
+
+
+nav ul li a:hover {
+	color: black;
+	background-color: mediumspringgreen;
+
+}
+
+
+
+
+/* Header */
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 460px;
+	background-image: url("organic.jpg");
+	background-position: center;
+	background-size: cover;
+	padding-top: 250px;
+}
+
+header h1 {
+	border: radius;
+	background-color: rgb(255,255,255,0.7); 
+	text-align: center;
+	font-size: 23px;
+	font-family: "Damion";
+	
+}
+
+
+
+
+/*All the MAIN*/
+main img {
+width: 200px;
+
+}
+
+.main div img {
+	width: 200px;
+	height: 200px; /*How big the photo will be*/
+}
+
+main h2 {
+	color: white;
+	font-family: "Cinzel";
+
+}
+
+main p {
+	text-align: center; /*To put the text in the center*/
+	font-size: 23px;
+	font-family: "Damion";
+}
+
+main ul li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	font-family: "Ubuntu Condensed";
+	font-size: 20px;
+	margin: 10px;
+
+}
+
+/*Footer*/
+footer {
+	margin: 0px; /*No space*/
+	padding: 30px;
+	display: flex;
+	justify-content: space-between; 
+	text-align: center;
+	font-size: 20px; /*The writing gets bigger*/
+background: rgb(54,147,102);
+background: linear-gradient(94deg, rgba(54,147,102,1) 0%, rgba(116,244,151,1) 100%);
+font-family: "Ubuntu";
+
+}
+
+
+/*Styling the cards with products*/
+
+.menu {
+	display: flex;
+	justify-content: space-between; /*Needed to create the cards*/
+	align-items: center;
+	height: 450px;
+	width: 300px;
+	margin: 2%;
+	background-color: seagreen;
+	border: 20px;
+	flex-direction: column;  /*Needed to create the cards*/
+
+
+
+	
+}
+
+.food { 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column; /*Needed to create the cards*/
+	
+
+}
+
+.organic {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row; /*Needed to create the cards*/
+	padding-top: 250px; /*The page doesn't change when you put the position of the NAV fixed*/
+}
+
+
+/*Text under the postcards*/
+.hallo p {
+	font-size: 23px;
+	text-align: center;
+	font-family: "Hi Melody";
+
+
+}
+
+
+/*Styling the about-page*/
+.me {
+	
+	display: flex;
+	justify-content: space-around; 
+	align-items: center;
+	padding-top: 250px;
+
+
+}
+
+.foto img {
+	
+	display: flex;
+	justify-content: center; 
+	align-items: flex-start; /*At the beginning of the page*/
+	margin: 10px;
+	height: 200px;
+	width: 300px;
+	border: 5px solid darkgreen;
+
+	
+
+}
+
+.text{
+	font-size: 20px;
+	font-family: "Corben";
+	border: 2px dotted darkgreen;
+	text-align: center;
+	padding: 7px; /*Inner space in the box*/
+	margin: 40px; 
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
