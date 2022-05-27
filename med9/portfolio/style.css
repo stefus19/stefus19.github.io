@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&family=Lato&family=Montez&family=Open+Sans:wght@300&family=Pacifico&family=Pangolin&family=Sacramento&display=swap');
+
+
+body {
+	background: rgb(244,243,218);
+background: linear-gradient(90deg, rgba(244,243,218,1) 0%, rgba(200,174,137,1) 100%);
+}
+
+
+h1 {
+	text-align: center;
+	font-family: Pangolin;
+	font-size: 35px;
+
+}
+
+h2 {
+	text-align: center;
+	font-family: Sacramento;
+	font-size: 20px;
+
+}
+
+main {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+
+main a {
+	width: 300px;
+	height: 300px;
+	border: 2px dashed black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 20px;
+	background-size: cover;
+	background-position: center;
+	font-family: Kanit;
+	font-size: 15px;
+
+
+}
+
+main a:hover {
+	transform: scale(1.3);
+	transition: all 2s;
+}
+
+
+main a p {
+	background-color: white;
+	padding: 10px;
+}
