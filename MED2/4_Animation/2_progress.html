@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Progressing</title>
+	<style type="text/css">
+
+		body {
+			background-color: #2a9d8f;
+		}
+
+		.text {
+			letter-spacing: 5px;
+			color: #f4a261;
+			margin-left: 30px;
+			margin-top: 70px;
+
+		}
+		.bar {
+			width: 250px;
+			height: 10px;
+			border: solid 10px #f4a261;
+			border-radius: 15px;
+			margin-top: 30px;
+			margin-left: 30px;
+			background-color: white;
+
+		}
+
+		.color {
+			positon: absolute;
+			width: 0px;
+			height: 10px;
+			border-radius: 15px;
+			animation: progress 4s linear forwards;
+			background-color: #ffffff;
+		}
+
+		@keyframes progress {
+			0%{width: 0%;}
+			25%{width: 50%;}
+			50%{width: 75%;}
+			75%{width: 85%;}
+			100%{width: 100%;}
+
+
+		}
+
+	
+
+	</style>
+</head>
+<body>
+
+	<div class="text">Progressing ...</div>
+	<div class="bar">
+		
+		<div class="color"></div>
+	</div>
+
+	
+	
+
+</body>
+</html>
