@@ -1,0 +1,85 @@
+* {
+	/* Nav, Article und Aside sind mit dem Padding groesser als 100%.
+	Die drei Bereiche erscheinen daher nicht nebeneinander.
+	Box-sizing: border-box....alle Groessenangaben umfassen das gesamte Element (inkl. Padding, Margin, ....)*/
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	/*Zu lange Woerter ragen aus dem Container raus.
+	Word-Wrap: break-word....teilt das Wort auf zwei Zeilen auf.*/
+	word-wrap: break-word;
+}
+
+/*Design fuer das Smartphone*/
+header, nav, article, aside {
+	width: 100%;
+}
+header {
+	background-color: lightgrey;
+	padding: 25px;
+}
+
+nav {
+	background-color: lightcoral;
+	padding: 25px;
+
+}
+
+
+article {
+	background-color: lightgoldenrodyellow;
+	padding: 25px;
+
+}
+
+aside {
+	background-color: lightskyblue;
+	padding: 25px;
+
+}
+
+/*Design Tablet*/
+@media (min-width: 600px) {
+	
+	li {
+		display: inline;
+	}
+	
+	article {
+		width: 60%;
+		float: left;
+	}
+
+	aside {
+		width: 40%;
+		float: left;
+	}
+}
+
+/*Design fuer den Desktop*/
+@media(min-width: 768px) {
+
+	li {
+		display: block;
+	}
+
+	nav, aside {
+	width: 25%;
+	float: left;
+	}
+
+
+	article {
+	width: 50%;
+	float: left;
+	}
+
+
+/*Bessere Lesbarkeit, wenn nicht die gesamte Breite ausgenutzt wird.
+Kuerzere Zeilen!*/
+#container {
+	width: 70%;
+	margin: auto; /*Bereich wird mittig angezeigt!*/
+}
+}
+
