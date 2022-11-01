@@ -1,0 +1,74 @@
+footer {
+	background-color: black;
+	color: white;
+}
+
+.about p a {
+	text-decoration: none;
+	color: white;
+}
+
+.about p a:hover {
+	background-color: white;
+	color: black;
+}
+
+.services p a:hover {
+	background-color: white;
+	color: black;
+}
+
+.services p a {
+	text-decoration: none;
+	color: white;
+
+
+}
+
+.about h2 {
+	font-size: 25px;
+}
+
+.services h3 {
+	font-size: 25px;
+}
+
+.our  h4 {
+	font-size: 25px;
+}
+
+.services {
+	padding-top: 5px;
+}
+
+
+
+footer {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+
+}
+
+
+@media (min-width: 768px) {
+
+footer {
+	display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+
+
+}
+
+.our {
+	width: 50%;
+}
+
+.about, .services {
+	width: 25%;
+}
+
+}
